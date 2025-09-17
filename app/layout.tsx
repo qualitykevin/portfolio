@@ -9,8 +9,11 @@ import { ThemeProvider } from "@/components/theme-provider"
 import { Suspense } from "react"
 
 export const metadata: Metadata = {
-  title: "Brihaspati (Kevin) - QA Engineer",
-  description: "Portfolio of Brihaspati (Kevin), QA Engineer at Skybase Innovations",
+  title: "Portfolio", 
+  description: "You may call me Kevin",
+  icons: {
+    icon: '/favicon.png', // or '/favicon.png'
+  },
   generator: "v0.app",
 }
 
