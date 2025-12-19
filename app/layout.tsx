@@ -7,6 +7,7 @@ import "./globals.css"
 import { CustomCursor } from "@/components/custom-cursor"
 import { ThemeProvider } from "@/components/theme-provider"
 import { Suspense } from "react"
+import { Snowflakes } from "@/components/snowflakes"
 
 export const metadata: Metadata = {
   title: "Portfolio", 
@@ -28,6 +29,7 @@ export default function RootLayout({
         <ThemeProvider defaultTheme="dark" storageKey="portfolio-theme">
           <Suspense fallback={null}>
             <CustomCursor />
+            <Snowflakes />
             {children}
           </Suspense>
         </ThemeProvider>

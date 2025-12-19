@@ -24,19 +24,29 @@ export default function AboutPage() {
                 <CardContent className="space-y-4">
                   <div>
                     <h3 className="font-medium text-card-foreground mb-2">Born</h3>
-                    <p className="text-muted-foreground">2006</p>
+                    <p className="text-muted-foreground">January 18, 2006</p>
                   </div>
                   <div>
                     <h3 className="font-medium text-card-foreground mb-2">Education</h3>
                     <p className="text-muted-foreground">
-                      Bachelor in Informatics
+                      Bachelor of Information Technology (Hons)
                       <br />
-                      College Pokhara (awaiting results)
+                      London Metropolitan University, Informatics College Pokhara
+                      <br />
+                      Graduated: December 2025
                     </p>
                   </div>
                   <div>
                     <h3 className="font-medium text-card-foreground mb-2">Current Role</h3>
                     <p className="text-muted-foreground">QA Engineer at Skybase Innovations, Pokhara</p>
+                  </div>
+                  <div>
+                    <h3 className="font-medium text-card-foreground mb-2">Hobbies</h3>
+                    <p className="text-muted-foreground">
+                      Playing ukulele, digital illustration and animation, riding motorbikes, travelling, photography,
+                      videography, and creative editing. These hobbies strengthen my creativity, attention to detail, and
+                      ability to connect with different people.
+                    </p>
                   </div>
                 </CardContent>
               </Card>
@@ -48,19 +58,29 @@ export default function AboutPage() {
                 <CardContent className="space-y-4">
                   <div>
                     <h3 className="font-medium text-card-foreground mb-2">Testing</h3>
-                    <p className="text-muted-foreground">Manual QA, Test Case Design, Bug Reporting</p>
+                    <p className="text-muted-foreground">
+                      Manual QA for web, mobile, and desktop applications, including functional, non-functional,
+                      regression, smoke, sanity, and end-to-end testing.
+                    </p>
                   </div>
                   <div>
                     <h3 className="font-medium text-card-foreground mb-2">Automation</h3>
-                    <p className="text-muted-foreground">Playwright with TypeScript</p>
+                    <p className="text-muted-foreground">
+                      Test automation for web and mobile using Playwright (TypeScript), Selenium, Cypress, and Appium.
+                    </p>
                   </div>
                   <div>
                     <h3 className="font-medium text-card-foreground mb-2">Security</h3>
-                    <p className="text-muted-foreground">OWASP ZAP Security Testing</p>
+                    <p className="text-muted-foreground">
+                      OWASP ZAP–based security testing with vulnerability scanning and basic penetration testing for web
+                      applications.
+                    </p>
                   </div>
                   <div>
                     <h3 className="font-medium text-card-foreground mb-2">API Testing</h3>
-                    <p className="text-muted-foreground">Postman with Custom Scripting</p>
+                    <p className="text-muted-foreground">
+                      REST API testing with Postman and custom scripting, including performance and load test scenarios.
+                    </p>
                   </div>
                 </CardContent>
               </Card>
@@ -85,10 +105,12 @@ export default function AboutPage() {
                 </p>
                 <br />
                 <p className="text-muted-foreground leading-relaxed text-lg">
-                  I specialize in comprehensive testing approaches, from manual test case design and execution to
-                  automated testing using Playwright with TypeScript. My toolkit also includes security testing with
-                  OWASP ZAP and API testing with advanced Postman scripting, allowing me to provide thorough quality
-                  assurance across different aspects of software development.
+                  I specialize in comprehensive quality assurance across web, mobile, and desktop applications,
+                  encompassing manual test case design and execution, automated testing using Playwright with TypeScript,
+                  and mobile automation with Appium. My expertise includes API testing with advanced Postman scripting,
+                  security testing using OWASP ZAP, and performance, load, and stress testing to ensure system stability
+                  and scalability. I apply functional, non-functional, regression, and end-to-end testing practices to deliver
+                  high-quality, reliable software throughout the development lifecycle.
                 </p>
               </CardContent>
             </Card>

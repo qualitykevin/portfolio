@@ -75,7 +75,7 @@ export default function HomePage() {
     <div className="min-h-screen bg-background">
       <Navigation />
 
-      <main className="pt-20">
+      <main className="pt-0">
         <div className="container mx-auto px-6 py-12">
           <div className="grid grid-cols-1 lg:grid-cols-5 gap-8 items-center min-h-[85vh]">
             {/* Left Content */}
