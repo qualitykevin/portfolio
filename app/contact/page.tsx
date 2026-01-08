@@ -200,11 +200,7 @@ export default function ContactPage() {
                     </p>
                     <p className="text-muted-foreground leading-relaxed text-sm">
                       Alternatively, you may contact me via email at{" "}
-<<<<<<< HEAD
-                      <u className="text-white">info@brihaspatithapamagar.com.np</u>.
-=======
                       <u className="text-black dark:text-white">info@brihaspatithapamagar.com.np</u>.
->>>>>>> 1029063 (theme info)
                     </p>
                   </CardContent>
                 </Card>
