@@ -194,9 +194,13 @@ export default function ContactPage() {
                       I'm always interested in discussing new opportunities, collaborating on projects, or sharing
                       knowledge about quality assurance and testing methodologies.
                     </p>
-                    <p className="text-muted-foreground leading-relaxed text-sm">
+                    <p className="text-muted-foreground leading-relaxed mb-3 text-sm">
                       Whether you need help with manual testing, test automation, security assessments, or API testing,
                       feel free to reach out. I'm committed to delivering high-quality results.
+                    </p>
+                    <p className="text-muted-foreground leading-relaxed text-sm">
+                      Alternatively, you may contact me via email at{" "}
+                      <u className="text-white">info@brihaspatithapamagar.com.np</u>.
                     </p>
                   </CardContent>
                 </Card>
